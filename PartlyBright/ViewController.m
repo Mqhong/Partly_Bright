@@ -22,9 +22,9 @@
     self.lbl.tag = 10000;
     [self.view addSubview:self.lbl];
     self.lbl.text = @"今天是个好日子，是个好日子呀";
-    self.lbl.mm_HeightLightText = @"是";
     self.lbl.textColor = [UIColor greenColor];
-    self.lbl.mm_HeightLightColor = [UIColor redColor];
+    self.lbl.mm_HeightLightText = @"是";
+//    self.lbl.mm_HeightLightColor = [UIColor redColor];
     NSLog(@"加载完毕");
 //    self.lbl.attributedText = [self SetTextPartOfHightLight:@"今天是个好日子" textColor:[UIColor orangeColor] hightText:@"是个" hightTextColor:[UIColor redColor]];
 }
